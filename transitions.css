@@ -1,0 +1,32 @@
+section{
+    position: relative;
+    top: 30px;
+    left: 70px;
+    /* display: flex; */
+    /* align-content: center; */
+    /* justify-content: center; */
+}
+p{
+    background-color: bisque;
+    height: 200px;
+    width: 200px;
+    border: 2 px solid black;
+    transition-property: width, background-color;
+    transition-duration: 3s;
+}
+p:active{
+    background-color: blueviolet, black;
+    width: 400px;
+    height: 300px;
+    
+}
+p:hover{
+    background-color: rgb(238, 238, 6);
+    width: 500px;
+}
+p:active{
+    background-color: blueviolet;
+    width: 400px;
+    height: 300px;
+    
+}
